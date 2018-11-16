@@ -219,3 +219,25 @@ h6{
     background-color: rgba(48, 204, 100);
     cursor: pointer;
 }
+
+/* _____________________________________________________Footer__________________________________________________________ */
+footer{
+    Display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    width: 1600px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: rgb(88, 88, 88);
+    font-size: 16pt;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+}
+
+span:hover{
+    color: rgb(0,0,0);
+}
