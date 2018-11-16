@@ -70,3 +70,41 @@ h1{
     align-items: flex-end;
     margin-left: 200px;
 }
+
+/* ________________________________SECTION 1_________________________________________________ */
+section{
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    justify-content: center;
+    background-color: white;
+}
+
+h2,h3,h4{
+    font-size: 20pt;
+    margin: 30px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+section div{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+}
+
+section div img{
+    background-color: rgba(48, 204, 100);
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+section div p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+}
