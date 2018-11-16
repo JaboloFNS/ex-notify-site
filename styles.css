@@ -108,3 +108,64 @@ section div p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 12pt;
 }
+
+/* _____________________________________ARTICLE 1_________________________________________________________ */
+article{
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px 200px 50px 0;
+}
+
+article img{
+    margin: 50px 0;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+h5{
+    font-size: 16pt;
+    margin: 0 0 20px 0;
+}
+
+article p{
+    font-size: 12pt;
+    margin: 0;
+    color: rgb(88, 88, 88);
+}
+
+article div div{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloco{
+    width: 300px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+}
+
+.button{
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(48, 204, 100);
+    color: white;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    color: rgb(0,0,0);
+}
